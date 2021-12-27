@@ -22,7 +22,8 @@
     "plugin:@typescript-eslint/recommended",
     "plugin:storybook/recommended",
     "plugin:jest/recommended",
-    "plugin:jest/style"
+    "plugin:jest/style",
+    "plugin:cypress/recommended"
   ],
   "ignorePatterns": ["node_modules", "dist", "out"],
   "globals": {
@@ -80,6 +81,7 @@
     "react/jsx-one-expression-per-line": 0,
     "react/jsx-indent": 0,
     "react/jsx-closing-tag-location": 0,
-    "jsx-quotes": 0
+    "jsx-quotes": 0,
+    "jest/expect-expect": 0
   }
 }

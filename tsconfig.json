@@ -39,11 +39,12 @@
     "node_modules",
     "dist",
     "out",
-    "./src/**/*.test.ts",
-    "./src/**/*.test.tsx",
-    "./src/**/*.stories.ts",
-    "./src/**/*.stories.tsx",
-    "./src/jest.setup.ts"
+    "cypress",
+    "src/**/*.test.ts",
+    "src/**/*.test.tsx",
+    "src/**/*.stories.ts",
+    "src/**/*.stories.tsx",
+    "src/jest.setup.ts"
   ],
   "include": ["./src/**/*.ts", "./src/**/*.tsx"]
 }
