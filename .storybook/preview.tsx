@@ -1,4 +1,4 @@
-import { ExampleProvider } from '../src';
+import { AppProvider } from '../src/containers/AppProvider';
 
 export const parameters = {
   actions: { argTypesRegex: '^on[A-Z].*' },
@@ -10,6 +10,4 @@ export const parameters = {
   },
 };
 
-export const decorators = [
-  (Story) => <ExampleProvider>{Story()}</ExampleProvider>,
-];
+export const decorators = [(Story) => <AppProvider>{Story()}</AppProvider>];
