@@ -4,6 +4,8 @@ node_modules
 dist
 out
 
+cypress/videos
+
 radata
 
 npm-debug.log*
