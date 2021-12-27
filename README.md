@@ -64,6 +64,7 @@ yarn export
 - `Husky`
 - `Jest`
 - `React Testing Library`
+- `Cypress`
 - `Storybook`
 - `Webpack`
 - `Semantic Release`
