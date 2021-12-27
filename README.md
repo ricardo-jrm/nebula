@@ -52,6 +52,7 @@ yarn export
 ### <b>Dev Dependencies</b>
 
 - `React`
+- `Material-UI`
 - `Next`
 - `Typescript`
 - `Prettier`
