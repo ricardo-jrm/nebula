@@ -3,6 +3,7 @@ import Head from 'next/head';
 import { AppProps } from 'next/app';
 import { CacheProvider, EmotionCache } from '@emotion/react';
 import { createEmotionCache } from '../scripts/createEmotionCache';
+import { AppProvider } from '../containers/AppProvider';
 
 const clientSideEmotionCache = createEmotionCache();
 
@@ -16,11 +17,15 @@ const NebulaApp: ReactNode = ({
   pageProps,
 }: NebulaAppProps) => (
   <CacheProvider value={emotionCache}>
-    <Head>
-      <title>Nebula</title>
-      <meta name="viewport" content="initial-scale=1, width=device-width" />
-    </Head>
-    <Component {...pageProps} />
+    <AppProvider>
+      <>
+        <Head>
+          <title>Nebula</title>
+          <meta name="viewport" content="initial-scale=1, width=device-width" />
+        </Head>
+        <Component {...pageProps} />
+      </>
+    </AppProvider>
   </CacheProvider>
 );
 

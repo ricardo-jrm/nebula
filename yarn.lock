@@ -2794,10 +2794,10 @@
     react-dom "^17.0.2"
     swr "^1.1.1"
 
-"@ricardo-jrm/fury@^3.0.2":
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/@ricardo-jrm/fury/-/fury-3.0.2.tgz#ef87be6d98795e56536b98608c940772126faa26"
-  integrity sha512-+IcnxopeNfAjPjQ7Z+5xt5j4L+9zAUbtfWSM4x4TxF1Kz+gxLpcpIM/FK69LeLbal3W1uL5KQ340Vwc/dBLojg==
+"@ricardo-jrm/fury@^3.0.3":
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/@ricardo-jrm/fury/-/fury-3.0.3.tgz#a62eea04b1d9e9bbae8a434c7f9699767f1a1a7a"
+  integrity sha512-VBjTDilXpxS/IgU32Lsz49k9iizdArsYXQuZ0uRGjEa1tIZJetBTc9pco03ADBkRhZ0IMm9qkHTuRp9gwJCbsg==
   dependencies:
     "@emotion/react" "^11.7.1"
     "@emotion/styled" "^11.6.0"

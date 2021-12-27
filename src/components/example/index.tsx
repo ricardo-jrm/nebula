@@ -1,9 +1,9 @@
 import React from 'react';
-import { useEcho } from '@ricardo-jrm/echo';
+import { Typography, Box, Button, Grid } from '@ricardo-jrm/fury/dist/mui';
+import { useFury } from '@ricardo-jrm/fury';
 import { usePain } from '@ricardo-jrm/pain';
 import { useEmpathy } from '@ricardo-jrm/empathy';
-import { useFury } from '@ricardo-jrm/fury';
-import { Typography, Box, Button, Grid } from '@ricardo-jrm/fury/dist/mui';
+import { useEcho } from '@ricardo-jrm/echo';
 
 /**
  * ExampleComponent props
