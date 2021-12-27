@@ -39,14 +39,11 @@ jobs:
       - name: Run Unit Tests
         run: yarn test
 
-      - name: Build Prod App
-        run: yarn build
-
-      - name: Start Prod App
-        run: yarn start
-
       - name: Run e2e Tests
-        run: yarn cy:run
+        uses: cypress-io/github-action@v2
+        with:
+          build: yarn build
+          start: yarn start
 
   # release:
   #   name: Release Package
