@@ -3,8 +3,6 @@
   "description": "Next Web App  Boilerplate",
   "version": "0.0.0-development",
   "bin": "bin.js",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
   "private": false,
   "repository": {
     "type": "git",
@@ -28,6 +26,7 @@
     "npm",
     "eslint",
     "jest",
+    "cypress",
     "prettier",
     "husky",
     "cicd"
