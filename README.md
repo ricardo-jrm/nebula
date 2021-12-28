@@ -62,10 +62,10 @@ yarn export
 
 ### <b>Dev Dependencies</b>
 
+- `Typescript`
 - `React`
 - `Material-UI`
 - `Next`
-- `Typescript`
 - `Prettier`
 - `ESLint`
 - `Commit Lint`
