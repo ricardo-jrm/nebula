@@ -54,7 +54,7 @@
     "indent": "off",
     "semi": "off",
     "implicit-arrow-linebreak": "off",
-    "arrow-body-style": "warn",
+    "arrow-body-style": 0,
     "no-multiple-empty-lines": "off",
     "no-trailing-spaces": "off",
     "object-curly-spacing": "off",
@@ -82,6 +82,8 @@
     "react/jsx-indent": 0,
     "react/jsx-closing-tag-location": 0,
     "jsx-quotes": 0,
-    "jest/expect-expect": 0
+    "jest/expect-expect": 0,
+    "no-empty-pattern": "warn",
+    "no-multi-spaces": "warn"
   }
 }
