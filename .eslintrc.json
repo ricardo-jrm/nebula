@@ -90,6 +90,9 @@
     "react/jsx-wrap-multilines": "warn",
     "max-len": "warn",
     "react/jsx-max-props-per-line": "warn",
-    "react/jsx-first-prop-new-line": "warn"
+    "react/jsx-first-prop-new-line": "warn",
+    "block-spacing": "warn",
+    "brace-style": "warn",
+    "react/jsx-closing-bracket-location": "warn"
   }
 }
