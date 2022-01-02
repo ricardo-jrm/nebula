@@ -86,6 +86,7 @@
     "no-empty-pattern": "warn",
     "no-multi-spaces": "warn",
     "react/jsx-indent-props": "warn",
-    "react/jsx-curly-brace-presence": 0
+    "react/jsx-curly-brace-presence": 0,
+    "react/jsx-wrap-multilines": "warn"
   }
 }
