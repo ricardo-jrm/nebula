@@ -52,6 +52,9 @@ yarn lint
 // run unit tests
 yarn test
 
+// run e2e tests
+yarn cy:run
+
 // run storybook
 yarn sb
 ```
