@@ -82,10 +82,12 @@ yarn sb
 - <b>Next Web App Boilerplate: [🌌 @ricardo-jrm/nebula](https://github.com/ricardo-jrm/nebula)</b>
 - <b>TS Utility Scripts: [🌙 @ricardo-jrm/dervish](https://github.com/ricardo-jrm/dervish)</b>
 - <b>React Utility Hooks: [🌘 @ricardo-jrm/reaper](https://github.com/ricardo-jrm/reaper)</b>
+- <b>Misc Collection: [🎭 @ricardo-jrm/mesmer](https://github.com/ricardo-jrm/mesmer)</b>
 - <b>React UI Components and Themes: [🔥 @ricardo-jrm/fury](https://github.com/ricardo-jrm/fury)</b>
 - <b>React Meta Data Handler: [⚫ @ricardo-jrm/pain](https://github.com/ricardo-jrm/pain)</b>
 - <b>React API Client: [🌸 @ricardo-jrm/empathy](https://github.com/ricardo-jrm/empathy)</b>
 - <b>React Lightweight Intl: [☁ @ricardo-jrm/echo](https://github.com/ricardo-jrm/echo)</b>
+- <b>Vega Lite with React and TS: [🟢 @ricardo-jrm/vera](https://github.com/ricardo-jrm/vera)</b>
 - <b>React Tooling Collection: [♠ @ricardo-jrm/ace](https://github.com/ricardo-jrm/ace)</b>
 
 <br />
