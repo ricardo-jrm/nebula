@@ -28,7 +28,13 @@ Boilerplate `Next` web app bootstrapped with all necessary configs and workflows
 
 <br />
 
-### <b>Usage</b>
+### <b>Demo</b>
+
+- <b>[Demo](https://nebula-ricardojrm.vercel.app/)</b>
+
+<br />
+
+### <b>Scripts</b>
 
 ```tsx
 // install deps
@@ -61,7 +67,15 @@ yarn sb
 
 <br />
 
-### <b>Dependencies</b>
+### <b>Project</b>
+
+- [Project Page](https://www.notion.so/l1b3r/nebula-170cf8da5d77413cbff167bc0ba63444)
+- [Source Code](https://github.com/ricardo-jrm/nebula)
+- [Releases Page](https://github.com/ricardo-jrm/nebula/releases)
+
+<br />
+
+### <b>Project Dependencies</b>
 
 - <b>TS Package Boilerplate: [🟪 @ricardo-jrm/nova](https://github.com/ricardo-jrm/nova)</b>
 - <b>React Module Boilerplate: [🟣 @ricardo-jrm/supernova](https://github.com/ricardo-jrm/supernova)</b>
@@ -71,6 +85,7 @@ yarn sb
 - <b>React Meta Data Handler: [⚫ @ricardo-jrm/pain](https://github.com/ricardo-jrm/pain)</b>
 - <b>React API Client: [🌸 @ricardo-jrm/empathy](https://github.com/ricardo-jrm/empathy)</b>
 - <b>React Lightweight Intl: [☁ @ricardo-jrm/echo](https://github.com/ricardo-jrm/echo)</b>
+- <b>React Tooling Collection: [♠ @ricardo-jrm/ace](https://github.com/ricardo-jrm/ace)</b>
 
 <br />
 
