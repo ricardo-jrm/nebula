@@ -20,7 +20,7 @@
 
 ### <b>Bootstrap</b>
 
-```ts
+```tsx
 npx @ricardo-jrm/nebula
 ```
 
@@ -30,7 +30,7 @@ Boilerplate `Next` web app bootstrapped with all necessary configs and workflows
 
 ### <b>Usage</b>
 
-```ts
+```tsx
 // install deps
 yarn install
 
@@ -45,12 +45,23 @@ yarn start
 
 // export app
 yarn export
+
+// run lint
+yarn lint
+
+// run unit tests
+yarn test
+
+// run storybook
+yarn sb
 ```
 
 <br />
 
 ### <b>Dependencies</b>
 
+- <b>TS Package Boilerplate: [🟪 @ricardo-jrm/nova](https://github.com/ricardo-jrm/nova)</b>
+- <b>React Module Boilerplate: [🟣 @ricardo-jrm/supernova](https://github.com/ricardo-jrm/supernova)</b>
 - <b>Next Web App Boilerplate: [🌌 @ricardo-jrm/nebula](https://github.com/ricardo-jrm/nebula)</b>
 - <b>React Utility Hooks: [🌘 @ricardo-jrm/reaper](https://github.com/ricardo-jrm/reaper)</b>
 - <b>React UI Components and Themes: [🔥 @ricardo-jrm/fury](https://github.com/ricardo-jrm/fury)</b>
@@ -62,6 +73,7 @@ yarn export
 
 ### <b>Dev Dependencies</b>
 
+- `Yarn`
 - `Typescript`
 - `React`
 - `Material-UI`
