@@ -69,7 +69,7 @@ yarn sb
 
 ### <b>Project</b>
 
-- [Project Page](https://www.notion.so/l1b3r/nebula-170cf8da5d77413cbff167bc0ba63444)
+- [Project Page](https://l1b3r.notion.site/nebula-170cf8da5d77413cbff167bc0ba63444)
 - [Source Code](https://github.com/ricardo-jrm/nebula)
 - [Releases Page](https://github.com/ricardo-jrm/nebula/releases)
 
