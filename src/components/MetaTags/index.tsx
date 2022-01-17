@@ -11,8 +11,8 @@ export const MetaTags = () => {
     <Head>
       <meta name="viewport" content="initial-scale=1, width=device-width" />
 
-      <title>Phantasma Chain Explorer</title>
-      <meta property="og:title" content="Phantasma Chain Explorer" />
+      <title>Nebula</title>
+      <meta property="og:title" content="Nebula" />
       <meta
         name="description"
         content={echo(painActive.description as string)}
