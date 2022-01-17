@@ -1,8 +1,9 @@
 import React, { ReactNode } from 'react';
 import { useRouter } from 'next/router';
-import { Box } from '@ricardo-jrm/fury/dist/mui';
+import Box from '@mui/material/Box';
 import { LayoutHome } from '../LayoutHome';
 import { LayoutPage } from '../LayoutPage';
+import { MetaTags } from '../../components';
 
 interface AppLayoutProps {
   children: ReactNode;
@@ -13,7 +14,8 @@ export const AppLayout = ({ children }: AppLayoutProps) => {
 
   return (
     <Box>
-      {pathname === '/' ? (
+      <MetaTags />
+      {pathname === '/' || pathname === '/blankhome' ? (
         <LayoutHome>{children}</LayoutHome>
       ) : (
         <LayoutPage>{children}</LayoutPage>
