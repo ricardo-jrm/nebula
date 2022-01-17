@@ -93,6 +93,8 @@
     "react/jsx-first-prop-new-line": "warn",
     "block-spacing": "warn",
     "brace-style": "warn",
-    "react/jsx-closing-bracket-location": "warn"
+    "react/jsx-closing-bracket-location": "warn",
+    "react/no-unused-prop-types": 0,
+    "react/require-default-props": 0
   }
 }
