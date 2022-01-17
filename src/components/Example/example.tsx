@@ -1,5 +1,5 @@
 import React from 'react';
-import { Typography, Box, Button, Grid } from '@mui/material';
+import { Typography, Box, Button, Grid, Paper } from '@mui/material';
 import { useFury } from '@ricardo-jrm/fury';
 import { usePain } from '@ricardo-jrm/pain';
 import { useEmpathy } from '@ricardo-jrm/empathy';
@@ -29,86 +29,115 @@ export const ExampleComponent = ({ text }: ExampleComponentProps) => {
   );
 
   return (
-    <Box>
-      <Typography data-testid="test-component">{text}</Typography>
-      <Typography>{loading ? 'Loading...' : data.name}</Typography>
-      <Typography sx={{ color: palette.primary.main }}>
-        <b>{painActive.name}</b>
-      </Typography>
-      <Typography sx={{ color: palette.secondary.main }}>
-        {echo('example')}
-      </Typography>
+    <Paper>
+      <Box p={3}>
+        <Typography data-testid="test-component">{text}</Typography>
+        <Typography>{loading ? 'Loading...' : data.name}</Typography>
+        <Typography sx={{ color: palette.primary.main }}>
+          <b>{painActive.name}</b>
+        </Typography>
+        <Typography sx={{ color: palette.secondary.main }}>
+          {echo('example')}
+        </Typography>
 
-      <Box>
-        <Grid container spacing={1}>
-          <Grid item>
-            <Button
-              variant="contained"
-              color="primary"
-              onClick={() => painSetById('soul')}
-            >
-              SOUL
-            </Button>
+        <Box>
+          <Grid container spacing={1}>
+            <Grid item>
+              <Button
+                variant="contained"
+                color="primary"
+                onClick={() => painSetById('nebula')}
+              >
+                Nebula
+              </Button>
+            </Grid>
+            <Grid item>
+              <Button
+                variant="contained"
+                color="primary"
+                onClick={() => painSetById('ace')}
+              >
+                Ace
+              </Button>
+            </Grid>
+            <Grid item>
+              <Button
+                variant="contained"
+                color="primary"
+                onClick={() => painSetById('fury')}
+              >
+                Fury
+              </Button>
+            </Grid>
           </Grid>
-          <Grid item>
-            <Button
-              variant="contained"
-              color="primary"
-              onClick={() => painSetById('kcal')}
-            >
-              KCAL
-            </Button>
-          </Grid>
-        </Grid>
 
-        <Grid container spacing={1} my={1}>
-          <Grid item>
-            <Button
-              variant="contained"
-              color="secondary"
-              onClick={() => furySetById('soul')}
-            >
-              SOUL
-            </Button>
+          <Grid container spacing={1} my={1}>
+            <Grid item>
+              <Button
+                variant="contained"
+                color="secondary"
+                onClick={() => furySetById('nebula')}
+              >
+                NEBULA
+              </Button>
+            </Grid>
+            <Grid item>
+              <Button
+                variant="contained"
+                color="secondary"
+                onClick={() => furySetById('nebula-dark')}
+              >
+                NEBULA DARK
+              </Button>
+            </Grid>
+            <Grid item>
+              <Button
+                variant="contained"
+                color="secondary"
+                onClick={() => furySetById('ace')}
+              >
+                ACE
+              </Button>
+            </Grid>
+            <Grid item>
+              <Button
+                variant="contained"
+                color="secondary"
+                onClick={() => furySetById('ace-dark')}
+              >
+                ACE DARK
+              </Button>
+            </Grid>
+            <Grid item>
+              <Button
+                variant="contained"
+                color="secondary"
+                onClick={() => furySetById('fury')}
+              >
+                FURY
+              </Button>
+            </Grid>
+            <Grid item>
+              <Button
+                variant="contained"
+                color="secondary"
+                onClick={() => furySetById('fury-dark')}
+              >
+                FURY DARK
+              </Button>
+            </Grid>
           </Grid>
-          <Grid item>
-            <Button
-              variant="contained"
-              color="secondary"
-              onClick={() => furySetById('soul-dark')}
-            >
-              SOUL DARK
-            </Button>
-          </Grid>
-          <Grid item>
-            <Button
-              variant="contained"
-              color="secondary"
-              onClick={() => furySetById('kcal')}
-            >
-              KCAL
-            </Button>
-          </Grid>
-          <Grid item>
-            <Button
-              variant="contained"
-              color="secondary"
-              onClick={() => furySetById('kcal-dark')}
-            >
-              KCAL DARK
-            </Button>
-          </Grid>
-        </Grid>
 
-        <Grid container spacing={1} my={1}>
-          <Grid item>
-            <Button onClick={() => echoSetById('en')}>EN</Button>
+          <Grid container spacing={1} my={1}>
+            <Grid item>
+              <Button onClick={() => echoSetById('en')}>EN</Button>
+            </Grid>
+            <Grid item>
+              <Button onClick={() => echoSetById('pt')}>PT</Button>
+            </Grid>
           </Grid>
-          <Grid item>
-            <Button onClick={() => echoSetById('pt')}>PT</Button>
-          </Grid>
-        </Grid>
+        </Box>
       </Box>
-    </Box>
+    </Paper>
   );
 };
