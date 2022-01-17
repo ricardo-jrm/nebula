@@ -1,5 +1,5 @@
 import React from 'react';
-import { Typography, Box } from '@ricardo-jrm/fury/dist/mui';
+import { Typography, Box } from '@mui/material';
 
 /**
  * ExampleComponent props

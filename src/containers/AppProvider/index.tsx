@@ -1,58 +1,5 @@
 import React from 'react';
-import { EchoProvider, EchoRecord } from '@ricardo-jrm/echo';
-import { FuryProvider, FuryRecord } from '@ricardo-jrm/fury';
-import { PainProvider, PainRecord } from '@ricardo-jrm/pain';
-
-const metas: PainRecord = {
-  soul: {
-    name: 'SOUL',
-  },
-  kcal: {
-    name: 'KCAL',
-  },
-};
-
-const locales: EchoRecord = {
-  en: {
-    example: 'example en',
-  },
-  pt: {
-    example: 'exemplo pt',
-  },
-};
-
-const themes: FuryRecord = {
-  soul: {
-    palette: {
-      primary: {
-        main: '#037abd',
-      },
-    },
-  },
-  'soul-dark': {
-    palette: {
-      mode: 'dark',
-      primary: {
-        main: '#037abd',
-      },
-    },
-  },
-  kcal: {
-    palette: {
-      primary: {
-        main: '#d02525',
-      },
-    },
-  },
-  'kcal-dark': {
-    palette: {
-      mode: 'dark',
-      primary: {
-        main: '#d02525',
-      },
-    },
-  },
-};
+import { locales, metas, themes, AceProvider } from '@ricardo-jrm/ace';
 
 /**
  * AppProviderProps
@@ -65,11 +12,14 @@ interface AppProviderProps {
  * AppProvider
  */
 export const AppProvider = ({ children }: AppProviderProps) => (
-  <EchoProvider echo={locales} echoDefault="en">
-    <PainProvider pain={metas} painDefault="soul">
-      <FuryProvider fury={themes} furyDefault="soul">
-        {children}
-      </FuryProvider>
-    </PainProvider>
-  </EchoProvider>
+  <AceProvider
+    locales={locales}
+    metas={metas}
+    themes={themes}
+    localesDefault="en"
+    metasDefault="nebula"
+    themesDefault="nebula"
+  >
+    {children}
+  </AceProvider>
 );

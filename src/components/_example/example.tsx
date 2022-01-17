@@ -1,5 +1,5 @@
 import React from 'react';
-import { Typography, Box, Button, Grid } from '@ricardo-jrm/fury/dist/mui';
+import { Typography, Box, Button, Grid } from '@mui/material';
 import { useFury } from '@ricardo-jrm/fury';
 import { usePain } from '@ricardo-jrm/pain';
 import { useEmpathy } from '@ricardo-jrm/empathy';

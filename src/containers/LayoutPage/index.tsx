@@ -1,5 +1,5 @@
 import React, { ReactNode } from 'react';
-import { Box, Container } from '@ricardo-jrm/fury/dist/mui';
+import { Box, Container } from '@mui/material';
 
 interface LayoutPageProps {
   children: ReactNode;
