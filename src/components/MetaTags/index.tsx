@@ -13,19 +13,34 @@ export const MetaTags = () => {
 
       <title>Nebula</title>
       <meta property="og:title" content="Nebula" />
-      <meta
-        name="description"
-        content={echo(painActive.description as string)}
-      />
-      <meta
-        property="og:description"
-        content={echo(painActive.description as string)}
-      />
-      <meta property="og:image" content={painActive.image} />
+
+      {painActive?.description && (
+        <meta
+          name="description"
+          content={echo(painActive?.description as string)}
+        />
+      )}
+
+      {painActive?.description && (
+        <meta
+          property="og:description"
+          content={echo(painActive?.description as string)}
+        />
+      )}
+
+      {painActive?.image && (
+        <meta property="og:image" content={painActive?.image} />
+      )}
+
+      {/* {painActive?.favicon && (
+        <link
+          rel="icon"
+          type="image/png"
+          href={painActive?.favicon as string}
+        />
+      )} */}
 
       <meta name="author" content="Ricardo <l1b3r_-> Mota" />
-
-      <link rel="icon" type="image/png" href={painActive.favicon as string} />
     </Head>
   );
 };
