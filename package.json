@@ -104,7 +104,7 @@
     "@emotion/server": "^11.4.0",
     "@mui/icons-material": "^5.2.5",
     "@mui/material": "^5.2.3",
-    "@ricardo-jrm/ace": "^1.1.1",
+    "@ricardo-jrm/ace": "^1.2.2",
     "next": "^12.0.7",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
