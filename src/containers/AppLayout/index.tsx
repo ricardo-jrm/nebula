@@ -15,7 +15,7 @@ export const AppLayout = ({ children }: AppLayoutProps) => {
   return (
     <Box>
       <MetaTags />
-      {pathname === '/' ? (
+      {pathname === '/' || pathname === '/blankhome' ? (
         <LayoutHome>{children}</LayoutHome>
       ) : (
         <LayoutPage>{children}</LayoutPage>
