@@ -1,5 +1,5 @@
 import React from 'react';
-import { ExampleComponent } from '../../components/_example';
+import { ExampleComponent } from '../../components/Example';
 
 /**
  * HomeViewProps
