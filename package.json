@@ -1,20 +1,20 @@
 {
-  "name": "@ricardo-jrm/nebula",
+  "name": "@ricardojrmcom/nebula",
   "description": "Next Web App  Boilerplate",
-  "version": "0.0.1-development",
+  "version": "0.0.2-development",
   "bin": "bin.js",
   "private": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/ricardo-jrm/nebula.git"
+    "url": "https://github.com/ricardojrmcom/nebula.git"
   },
   "author": {
     "name": "Ricardo Mota",
-    "url": "https://github.com/ricardo-jrm"
+    "url": "https://github.com/ricardojrmcom"
   },
-  "homepage": "https://github.com/ricardo-jrm/nebula#readme",
+  "homepage": "https://github.com/ricardojrmcom/nebula#readme",
   "bugs": {
-    "url": "https://github.com/ricardo-jrm/nebula/issues"
+    "url": "https://github.com/ricardojrmcom/nebula/issues"
   },
   "license": "MIT",
   "keywords": [
@@ -105,7 +105,7 @@
     "@emotion/server": "^11.4.0",
     "@mui/icons-material": "^5.2.5",
     "@mui/material": "^5.2.3",
-    "@ricardo-jrm/ace": "^1.2.2",
+    "@ricardojrmcom/ace": "^2.0.0",
     "next": "^12.0.7",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"

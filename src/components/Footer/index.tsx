@@ -1,9 +1,9 @@
 import React, { useMemo } from 'react';
 import { useRouter } from 'next/router';
-import { useFury } from '@ricardo-jrm/fury';
+import { useFury } from '@ricardojrmcom/fury';
 import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
-import { Link, FOOTER_HEIGHT, FOOTER_OFFSET } from '@ricardo-jrm/ace';
+import { FOOTER_HEIGHT, FOOTER_OFFSET } from '../../cfg';
 
 /**
  * Footer props
@@ -89,17 +89,7 @@ export const Footer = ({
             justifyContent="center"
           >
             <Grid item pb={1}>
-              <Link
-                align="center"
-                href="https://github.com/ricardo-jrm/nebula"
-                external
-                sx={{
-                  color: '#fff',
-                  textDecoration: 'none',
-                }}
-              >
-                🌌 Nebula v1.X.X
-              </Link>
+              <>🌌 Nebula v1.X.X</>
             </Grid>
           </Grid>
         </Grid>
@@ -112,17 +102,7 @@ export const Footer = ({
             justifyContent="center"
           >
             <Grid item>
-              <Link
-                align="center"
-                href="https://github.com/ricardo-jrm"
-                external
-                sx={{
-                  color: '#fff',
-                  textDecoration: 'none',
-                }}
-              >
-                {'Copyright © Ricardo <l1b3r_-> Mota'}
-              </Link>
+              <>{'Copyright © Ricardo <l1b3r_-> Mota'}</>
             </Grid>
           </Grid>
         </Grid>

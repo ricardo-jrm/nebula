@@ -1,7 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
-import { usePain } from '@ricardo-jrm/pain';
-import { useEcho } from '@ricardo-jrm/echo';
+import { usePain } from '@ricardojrmcom/pain';
+import { useEcho } from '@ricardojrmcom/echo';
 
 export const MetaTags = () => {
   const { painActive } = usePain();

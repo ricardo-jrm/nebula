@@ -1,9 +1,9 @@
 import React from 'react';
 import { Typography, Box, Button, Grid, Paper } from '@mui/material';
-import { useFury } from '@ricardo-jrm/fury';
-import { usePain } from '@ricardo-jrm/pain';
-import { useEmpathy } from '@ricardo-jrm/empathy';
-import { useEcho } from '@ricardo-jrm/echo';
+import { useFury } from '@ricardojrmcom/fury';
+import { usePain } from '@ricardojrmcom/pain';
+import { useEmpathy } from '@ricardojrmcom/empathy';
+import { useEcho } from '@ricardojrmcom/echo';
 
 /**
  * ExampleComponent props

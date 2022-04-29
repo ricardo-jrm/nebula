@@ -2,7 +2,7 @@
 const { exec } = require('child_process');
 
 exec(
-  'npx degit https://github.com/ricardo-jrm/nebula.git --force',
+  'npx degit https://github.com/ricardojrmcom/nebula.git --force',
   (err, stdout, stderr) => {
     if (err) {
       return;

@@ -1,10 +1,6 @@
 import React from 'react';
-import {
-  Fullscreen,
-  HEADER_HEIGHT,
-  FOOTER_HEIGHT,
-  FOOTER_OFFSET,
-} from '@ricardo-jrm/ace';
+import { HEADER_HEIGHT, FOOTER_HEIGHT, FOOTER_OFFSET } from '../../cfg';
+import { Fullscreen } from '../../components/Fullscreen';
 
 /**
  * ViewHome
