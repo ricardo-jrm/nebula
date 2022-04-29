@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import React from 'react';
 import { AppProps } from 'next/app';
 import { CacheProvider, EmotionCache } from '@emotion/react';
 import { AppProvider } from '../containers/AppProvider';
@@ -11,7 +11,7 @@ interface NebulaAppProps extends AppProps {
   emotionCache: EmotionCache;
 }
 
-const NebulaApp: ReactNode = ({
+const NebulaApp = ({
   Component,
   emotionCache = clientSideEmotionCache,
   pageProps,
