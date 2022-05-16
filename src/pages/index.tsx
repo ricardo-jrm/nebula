@@ -1,7 +1,7 @@
 import React from 'react';
 import type { NextPage } from 'next';
-import { ViewHome } from '../containers/ViewHome';
+import { ViewBlank } from '../containers/ViewBlank';
 
-export const HomePage: NextPage = () => <ViewHome />;
+export const HomePage: NextPage = () => <ViewBlank />;
 
 export default HomePage;
