@@ -30,7 +30,7 @@ Boilerplate `Next` web app bootstrapped with all necessary configs and workflows
 
 ### <b>Demo</b>
 
-- <b>[Demo](https://nebula-ricardojrm.vercel.app/)</b>
+- <b>[Demo](https://nebula-ricardojrmcom.vercel.app/)</b>
 
 <br />
 
