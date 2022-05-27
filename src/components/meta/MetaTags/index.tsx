@@ -12,12 +12,8 @@ export const MetaTags = () => {
       <meta name="description" content="Description" />
       <meta property="og:description" content="Description" />
 
-      {/* <meta property="og:image" content="/" /> */}
-      {/* <link
-          rel="icon"
-          type="image/png"
-          href="/"
-      /> */}
+      <meta property="og:image" content="/static/v1/img/placeholder.png" />
+      <link rel="icon" type="image/png" href="/static/v1/img/placeholder.png" />
 
       <meta name="author" content="Author" />
 
