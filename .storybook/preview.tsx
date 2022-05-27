@@ -1,4 +1,4 @@
-import { AppProvider } from '../src/containers/AppProvider';
+import { AppProvider } from '../src/containers';
 
 export const parameters = {
   actions: { argTypesRegex: '^on[A-Z].*' },
