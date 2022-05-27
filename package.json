@@ -1,6 +1,6 @@
 {
   "name": "@ricardojrmcom/nebula",
-  "description": "Next Web App  Boilerplate",
+  "description": "Next Web App Boilerplate",
   "version": "0.0.2-development",
   "bin": "bin.js",
   "private": false,
