@@ -10,6 +10,6 @@ export default {
   },
 } as Meta;
 
-export const StoryComponent: Story<TemplateComponentProps> = () => (
+export const Default: Story<TemplateComponentProps> = () => (
   <TemplateComponent>TemplateComponent</TemplateComponent>
 );
