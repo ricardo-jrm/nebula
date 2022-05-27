@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react';
-import { ThemeProvider, createTheme, Theme } from '@mui/material';
+import { ThemeProvider, createTheme, Theme, ThemeOptions } from '@mui/material';
 import CssBaseline from '@mui/material/CssBaseline';
 
 /**
@@ -9,7 +9,13 @@ interface AppProviderProps {
   children: JSX.Element;
 }
 
-const theme = {};
+const theme: ThemeOptions = {
+  palette: {
+    background: {
+      default: '#f1f1f1',
+    },
+  },
+};
 
 /**
  * AppProvider
