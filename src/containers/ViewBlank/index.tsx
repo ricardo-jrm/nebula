@@ -1,7 +1,14 @@
 import React from 'react';
 import { Fullscreen } from 'components/layout';
 import { BtnContained, BtnText } from 'components/button';
-import { Caption, Headline, Subtitle, Text, Title } from 'components/typo';
+import {
+  Caption,
+  Heading,
+  Headline,
+  Subtitle,
+  Text,
+  Title,
+} from 'components/typo';
 
 /**
  * ViewBlank
@@ -11,6 +18,9 @@ export const ViewBlank = () => (
     <div>
       <div>
         <Headline>Headline</Headline>
+      </div>
+      <div>
+        <Heading>Heading</Heading>
       </div>
       <div>
         <Title>Title</Title>
