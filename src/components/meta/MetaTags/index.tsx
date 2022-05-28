@@ -6,13 +6,6 @@ export const MetaTags = () => {
     <Head>
       <meta name="viewport" content="initial-scale=1, width=device-width" />
 
-      <title>Title</title>
-      <meta property="og:title" content="Title" />
-
-      <meta name="description" content="Description" />
-      <meta property="og:description" content="Description" />
-
-      <meta property="og:image" content="/static/v1/img/placeholder.png" />
       <link rel="icon" type="image/png" href="/static/v1/img/placeholder.png" />
 
       <meta name="author" content="Author" />
